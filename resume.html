@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
-        .namehead,.workhead,.education .head{
+        .namehead,.workhead,.head{
             font-family: 'Bebas Neue ', sans-serif ;font-weight: 600;font-size: 24px; 
-            text-align: center;   
+            text-align: center; 
         }
         .namehead span{
             font-family: 'Poppins', sans-serif;font-size: 22px;
@@ -41,15 +41,26 @@
         color: black;
         font-family: 'Poppins', sans-serif;font-size: 22px;
     }
-    .educationdetails{
+    .certdetails,.skill,.educationdetails,.Projectdetails{
         color: black;
         font-family: 'Poppins', sans-serif;font-size: 22px;
+    }
+    .body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .linedesign{
+        margin-left: 0%;
+        height: 1px;
+        width: 20%;
+        background: -webkit-radial-gradient(center, ellipse, rgba(0,183,119) 0%, rgba(0,183,119) 50%);
+        background: radial-gradient(ellipse at center, rgba(0,183,119) 0%, rgba(0,183,119) 50%);
     }
     </style>
 </head>
 <body>
     <div class="namehead">
-        <h2>Dinto Davi T</h2>
+        <div class="head">Dinto Davi T</div>
         <span>I have Seven+ years of experience as a full stack developer.</span>
         <div class="icondiv">
             <div class="row">
@@ -86,249 +97,356 @@
 
     </div>
     <hr>
-    <div class="work">
-        <div class="workhead">WORK EXPERIENCE</div>
-        <ul class="experiencedetails">
-            <li>
-                <p>
-                    Kerala Forest Research Institute(KFRI),Peechi,Sep 2022-Till Now   
-                </p>
-                <p>
-                    Designation : System Administrator/Computer Programmer
-                </p>
-            </li>
-            <li>
-                <p>
-                    Sirach Technology Pvt Ltd,Thrissur,April 2019-Sep 2022
-                </p>
-                <p>
-                    Designation : Tech Lead
-                </p>
-            </li>
-            <li>
-                <p>
-                    National Institute Of Technology(NIT), Karnataka, Sep 2017 - Sep 2018
-                </p>
-                <p>
-                    Designation : MIS Technical Officer
-                </p>
-            </li>
-            <li>
-                <p>
-                    National Institute Of Technology(NIT), Calicut, Sep 2016 - Sep 2017
-                </p>
-                <p>
-                    Designation : MIS Technical Staff
-                </p>
-            </li>
-            <li>
-                <p>
-                    Accord Fintech Pvt Ltd, Thrissur, Aug 2015 - Aug 2016
-                </p>
-                <p>
-                    Designation : Software Engineer
-                </p>
-            </li>
-            <li>
-                <p>
-                    GiveValu Technology Solutions Pvt Ltd , Bangalore , Mar 2015 - Aug 2015
-                </p>
-                <p>
-                    Designation : Software Engineer Trainee
-                </p>
-            </li>
-        </ul>
-    </div>
-    <div class="education">
-        <p class="head">EDUCATION</p>
-        <ul class="educationdetails">
-            <li>
-                M.Tech CSE,GEC Thrissur, 2019 - 2021
-            </li>
-            <li>
-                PG Diploma in Information Security and Cloud Computing,NIELIT Calicut, 2016
-            </li>
-            <li>
-                PPG Institute Of Technology,Coimbatore, B.E CSE, 2014
-            </li>
-            <li>
-                HSC,St.Thomas HSS, Coimbatore, 2010
-            </li>
-            <li>
-                SSLC,St.Sebastian’s High School,Chittattukara, 2007
-            </li>
-        </ul>        
-    </div>
-    <div>
-        <p class="head">CERTIFICATE</p>
-        <ul class="educationdetails">
-            <li>
-                Flutter : Part 10 Firebase Cloud Firestore
-            </li>
-            <li>
-                GCP Essentials
-            </li>
-            <li>
-                Cloud Study Jam Kubernetes Engine : Qwik
-            </li>
-            <li>
-                Start Career edge-knockdown the lockdown online course offered by TCS iON
-            </li>
-            <li>
-                Gate 2017 (Reg No: CS17S51323053)
-            </li>
-            <li>
-                TS: Microsoft .NET Framework 3.5, Windows Presentation Foundation Application Development(Exam ID : 70-502)
-(MICROSOFT ID : 9894670)
-            </li>
-            <li>
-                C#.NET & WPF training at NIIT one world
-            </li>
-            <li>
-                Core Java & JDBC training at RISEON Technology
-            </li>
-        </ul>
-    </div>
-    <div>
-        SKILLS
-        Database
-MS SQL
-MySQL
-Google Firebase
-ORACLE
+    <div class="body">
 
-Data Science
-Sklearn
-Tensor
-Matplotlib and seaborn
-OpenCV(basics)
-NLTK(basics)
+        <div class="work">
+            <div class="workhead">WORK EXPERIENCE</div>
+            <br>
+            <ul class="experiencedetails">
+                <li>
+                    <p>
+                        Kerala Forest Research Institute(KFRI),Peechi,Sep 2022-Till Now   
+                    </p>
+                    <p>
+                        Designation : System Administrator/Computer Programmer
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sirach Technology Pvt Ltd,Thrissur,April 2019-Sep 2022
+                    </p>
+                    <p>
+                        Designation : Tech Lead
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        National Institute Of Technology(NIT), Karnataka, Sep 2017 - Sep 2018
+                    </p>
+                    <p>
+                        Designation : MIS Technical Officer
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        National Institute Of Technology(NIT), Calicut, Sep 2016 - Sep 2017
+                    </p>
+                    <p>
+                        Designation : MIS Technical Staff
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Accord Fintech Pvt Ltd, Thrissur, Aug 2015 - Aug 2016
+                    </p>
+                    <p>
+                        Designation : Software Engineer
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        GiveValu Technology Solutions Pvt Ltd , Bangalore , Mar 2015 - Aug 2015
+                    </p>
+                    <p>
+                        Designation : Software Engineer Trainee
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="education">
+            <div class="head">EDUCATION</div>
+            <br>
+            <ul class="educationdetails">
+                <li>
+                    M.Tech CSE,GEC Thrissur, 2019 - 2021
+                </li>
+                <li>
+                    PG Diploma in Information Security and Cloud Computing,NIELIT Calicut, 2016
+                </li>
+                <li>
+                    PPG Institute Of Technology,Coimbatore, B.E CSE, 2014
+                </li>
+                <li>
+                    HSC,St.Thomas HSS, Coimbatore, 2010
+                </li>
+                <li>
+                    SSLC,St.Sebastian’s High School,Chittattukara, 2007
+                </li>
+            </ul>        
+        </div>   
+        <hr>     
+        <div class="certificate">
+            <div class="head">CERTIFICATE</div>
+            <br>
+            <ul class="certdetails">
+                <li>
+                    Flutter : Part 10 Firebase Cloud Firestore
+                </li>
+                <li>
+                    GCP Essentials
+                </li>
+                <li>
+                    Cloud Study Jam Kubernetes Engine : Qwik
+                </li>
+                <li>
+                    Start Career edge-knockdown the lockdown online course offered by TCS iON
+                </li>
+                <li>
+                    Gate 2017 (Reg No: CS17S51323053)
+                </li>
+                <li>
+                    TS: Microsoft .NET Framework 3.5, Windows Presentation Foundation Application Development(Exam ID : 70-502)     (MICROSOFT ID : 9894670)
+                </li>
+                <li>
+                    C#.NET & WPF training at NIIT one world
+                </li>
+                <li>
+                    Core Java & JDBC training at RISEON Technology
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <br>
+        <div class="head">SKILLS</div>
+        <br>
+            <div class="row skill">
+                <div class="col-3">
+                    Database
+                    <hr class="linedesign">
+                    <p>MS SQL</p>
+                    <p>MySQL</p>
+                    <p>Google Firebase</p>
+                    <p>ORACLE</p>
+                </div>
+                <div class="col-3">
+                    Data Science
+                    <hr class="linedesign">
+                    <p>Sklearn</p>
+                    <p>Tensor</p>
+                    <p>Matplotlib and seaborn</p>
+                    <p>OpenCV(basics)</p> 
+                </div>
+                <div class="col-3">
+                     Languages
+                    <hr class="linedesign">
+                    <p>C#</p>
+                    <p>Python</p>
+                    <p>Ruby</p>
+                    <p>JavaScript</p>
+                    <p>Dart</p>
+                    <p>Bash Script</p>                
+                </div>
+                <div class="col-3">
+                    Server
+                    <hr class="linedesign">
+                    <p>Nginx web server</p>
+                    <p>DNS Server</p>
+                    <p>Web Server</p>
+                    <p>Mail Server</p>
+                    <p>Squid Proxy Server</p>
+                    <p>ms sql server 2008 r2</p>
+                </div>
+            </div>
+            <br>
+            <div class="row skill">
+                <div class="col-3">
+                    Tools
+                    <hr class="linedesign">
+                    <p>GitHub</p>
+                    <p>VS Code</p>
+                    <p>visual studio 2012</p>
+                    <p>Microsoft Visual SourceSafe (VSS)</p>
+                </div>
+                <div class="col-3">
+                    Web/windows/mobile    
+                    <hr class="linedesign">
+                    <p>HTML5</p>         
+                    <p>CSS3</p>         
+                    <p>Bootstrap</p>         
+                    <p>jQuery</p>         
+                    <p>Python Django</p>         
+                    <p>Flutter</p>         
+                    <p>VB.net</p>         
+                    <p>Ruby On Rails</p>         
+                </div>
+                <div class="col-3">
+                    Cloud
+                    <hr class="linedesign">
+                    <p>AWS EC2</p>
+                    <p>Google Firebase</p>
+                    <p>Google Cloud Platform</p>
+                    <p>Citrix xen server</p>
+                    <p>Vmware</p>
+                    <p>PythonAnyWhere</p>
+                    <p>Heroku</p>    
+                </div>
+                <div class="col-3">
+                    OS Platforms 
+                    <hr class="linedesign">
+                    <p>Ubuntu</p>
+                    <p>CentOS 6.7</p>
+                    <p>Windows Server 2008R2</p>
+                    <p>windows XP,7,8.1,10</p>
+                </div>
+            </div>
+            <br>
+            <div class="row skill">
+    
+                <div class="col-3">
+                    Prototype design
+                    <hr class="linedesign">
+                    <p>Figma</p>
+                </div>
+                <div class="col-3">
+                    Auditing
+                    <hr class="linedesign">
+                    <p>Microsoft Baseline</p>
+                    <p>Security Analyzer</p>
+                    <p>OpenVAS</p>
+                </div>
+                <div class="col-3">
+                    Payment Gateway   
+                    <hr class="linedesign">             
+                    <p>billdesk</p>
+                    <p>paypal</p>
+                    <p>razorpay</p>
+                </div>
+                <div class="col-3">
+                    Monitoring
+                    <hr class="linedesign">
+                    <p>NagiOs System Monitoring</p>
+                </div>
+            </div>
+        <hr>
 
-Programming Languages
-C
-C#
-Python
-Ruby
-JavaScript
-Dart
-Bash Script
+        <div class="PROJECTS">
+            <div class="head">PROJECTS</div>
+            <br>
+            <hr>
+            <ul class="Projectdetails">
+                <div class="head">Kfri Peechi</div>
+                Projects:
+                <li>
+                    https://wildlab.in/
+                </li>
+                <li>https://ccsbi.citsciindia.in/</li>
+                <li>https://www.citsciindia.in/</li>                 
+            </ul>
+            <br>
+            <br>
+            <ul class="Projectdetails">
+                <div class="head">Sirach Technology Pvt Ltd</div>
+                Projects:
+                <li>
+                    https://ktccricket.in/
+                </li>
+                <li>Upstoxpartner Mobile app</li>
+                <li>Supernova Investment Software</li>                 
+            </ul>
+            <ul class="Projectdetails">
+                <div class="head">Nit Surathkal</div>
+                Projects:
+                <li>
+                    https://iris.nitk.ac.in/hrms/
+                </li>
+                <li>https://www.nitk.ac.in/</li>
+                <li>https://www.nimcet.in/</li>                 
+            </ul>
 
-        Server
-Nginx web server
-DNS Server
-Web Server
-Mail Server
-Squid Proxy Server
-ms sql server 2008 r2
+            <ul class="Projectdetails">
+                <div class="head">Nit Calicut</div>
+                Projects:
+                <li>
+                    http://www.dss.nitc.ac.in/
+                </li>
+                <li>http://www.nitc.ac.in/</li>
+                <li>            Windows:
+                    Accounts , Purchase, Hostel, Payroll, Academic, Admission, Establishment, Engineering Unit</li>                 
+            </ul>
 
-Tools
-
-GitHub
-VS Code
-visual studio 2012
-Microsoft Visual SourceSafe (VSS)
-
-Web/windows/mobile
-HTML5
-CSS3
-Bootstrap
-jQuery
-Python Django
-ajax
-Flutter
-VB.net
-Ruby On Rails
-
-
-        Cloud
-        Azure(basic)
-        Citrix xen server
-        vmware
-        AWS(basic)
-        Google Firebase
-        PythonAnyWhere
-        Heroku
-
-        OS Platforms
-        CentOS 6.7
-        RedHat
-        Ubuntu
-        Windows Server 2008R2
-        windows XP,7,8.1,10
-
-        Prototype design
-
-        Sketch(basic)
-        Figma
-        Adobe XD(basic)
-
-        Auditing
-Microsoft Baseline
-Security Analyzer
-OpenVAS
-Payment Gateway
-billdesk
-paypal
-Monitoring
-NagiOs System Monitoring
-    </div>
-<div>
-    NIT Surathkal
-Project :
-https://iris.nitk.ac.in/hrms/
-https://www.nitk.ac.in/
-https://www.nimcet.in/
-
-    NIT CALICUT
-Project :
-Web: http://www.dss.nitc.ac.in/
-http://www.nitc.ac.in/
-Windows:
-Accounts , Purchase, Hostel, Payroll, Academic, Admission, Establishment, Engineering Unit
-
-    NIELIT CALICUT
-Project :
-SECURE INFRASTRUCTURE AS A CLOUD WITH MONITORING SERVER :
-Tools: Citrix XenServer
-Network Intrusion Detection System : Snort
-Antivirus Engine : ClamAV
-Secure Monitoring : Nagios
-Secure Auditing : OpenVAS
+            <ul class="Projectdetails">
+                <div class="head">Nielit Calicut</div>
+                Projects:
+                <li>
+                    SECURE INFRASTRUCTURE AS A CLOUD WITH MONITORING SERVER :
+                    <p>
+                        Tools: Citrix XenServer
+                    </p>
+                    <p>
+                        Network Intrusion Detection System : Snort
+                    </p>
+                    <p>
+                        Antivirus Engine : ClamAV
+                    </p>
+                    <p>
+                        Secure Monitoring : Nagios
+                    </p>
+                    <p>    
+                        Secure Auditing : OpenVAS
+                    </p>
+                </li>             
+            </ul>
 
 
-    ACCORD FINTECH PVT LTD:
-Project :
-Asp.net
-1)DalalTimes http://dalaltimes.com/
-2)NirmalBang http://www.nirmalbang.com/
-Windows Application
-1)CRSL Structure
-2)ACE PMS
-3)Equity
-4)MBPO
-5)ACEMF
-
-    GIVEVALU TECHNOLOGY:
-Project : www.eduawake.com
-College Project:
-M.tech:
-Movie recommendation(OTT) using markovian factorization of matrix process
-B.tech:
-Automated Food Ordering System In Restaurant using WPF
-Video player using wpf
-movie seat booking using asp.net
-</div>
 
 
-<div>
-    PERSONAL DETAILS
-    Strengths - Teamwork, Consistent, Managerial skills, positive attitude, Polite, Honest, Responsible
-Interests - Basketball,Volleyball,Reading newspaper
-Languages - Malayalam, English, Tamil
-</div>
-    <div>
-        OTHER ACHIEVEMENTS
-        <ul>
+            <ul class="Projectdetails">
+                <div class="head">Accord Fintech Pvt Ltd</div>
+                Projects:
+                <li>
+                    DalalTimes http://dalaltimes.com/
+                </li>
+                <li>NirmalBang http://www.nirmalbang.com/</li>
+                
+                <li>
+                    Intranet Applications
+                    <p>CRSL Structure,ACE PMS,Equity,MBPO,ACEMF</p>
+                </li>
+        
+            </ul>
+
+            <div class="head">Givevalu Technology</div>
+            <ul class="Projectdetails">
+                
+                Projects:
+                <li>
+                    www.eduawake.com
+                </li>
+            </ul>
+            <hr>
+            <ul class="Projectdetails">
+                <div class="head">College Projects</div>
+                M.tech:
+                <li>
+                    Movie recommendation(OTT) using markovian factorization of matrix process
+                </li>
+                B.tech:
+                <li>
+                    Automated Food Ordering System In Restaurant using WPF
+                </li>
+                <li>
+                    Video player using wpf
+                </li>
+                <li>
+                    movie seat booking using asp.net
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="head">
+            PERSONAL DETAILS 
+        </div>
+        <br>
+        <div class="Projectdetails">
+            <p> Strengths - Teamwork, Consistent, Managerial skills, positive attitude, Polite, Honest, Responsible</p>
+            <p>Interests - Basketball,Volleyball,Reading newspaper</p>
+            <p>Languages - Malayalam, English, Tamil</p>  
+        </div>
+        <hr>
+        <div class="head"> OTHER ACHIEVEMENTS</div>
+        <br>
+        <ul class="Projectdetails">
         <li>
             Worked as CEE Software Professional for Online exam of kmat,LLB 3yr and LLB 5yr morethan 3years
         </li>
@@ -342,11 +460,15 @@ Languages - Malayalam, English, Tamil
             Runner Up in volleyball for block level in keralotsavam 2019
         </li>
     </ul>
-       
-
-
 
     </div>
+<div>
+</div>
+
+
+
+
+       
     </div>
 </body>
 </html>
